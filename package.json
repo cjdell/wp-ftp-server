@@ -1,0 +1,15 @@
+{
+  "name": "wp-ftp-server",
+  "version": "1.0.0",
+  "description": "FTP server for secure internal use within hosting platforms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ftpd": "^0.2.12"
+  }
+}
