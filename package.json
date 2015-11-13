@@ -1,7 +1,7 @@
 {
   "name": "wp-ftp-server",
   "version": "1.0.0",
-  "description": "FTP server for secure internal use within hosting platforms",
+  "description": "FTP server that allows WordPress to self update/install themes and plugins without granting write access to the PHP process.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
