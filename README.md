@@ -8,7 +8,7 @@ Purpose
 
 I wrote this server to solve the problem of needing to give the PHP user write access. Without write access one cannot install plugins and themes. However this introduces a security risk. It allows vulnerabilities in WordPress plugins and WordPress to gain an attacker access to the filesystem. However, WordPress can update through FTP. This FTP server is designed to be used only on localhost purely so WordPress can write to the filesystem.
 
-It requires minimal setup. The FTP username should be the domain name, assuming the folder structures is organised this way. See `config.js` on how one might map this to their servers filesystem.
+It requires minimal setup. The FTP username should be the domain name, assuming the folder structure is organised this way. See `config.json` on how one might map this to their servers filesystem.
 
 Primarily intended for WordPress but no reason it cannot work for other CMS's that can also update via FTP.
 
