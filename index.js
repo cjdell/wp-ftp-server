@@ -18,10 +18,12 @@ const options = {
     const rootPath = getSiteRoot(connection.username);
     console.log('Using root path:', rootPath);
     return rootPath
-  }
+  },
+  useWriteFile: true,
+  useReadFile: true
 };
 
-const server = new ftpd.FtpServer('localhost', options)
+const server = new ftpd.FtpServer('127.0.0.1', options)
   .on('client:connected', (connection) => {
     let username;
     connection.on('command:user', (user, success, failure) => {
